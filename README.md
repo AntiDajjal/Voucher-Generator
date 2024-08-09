@@ -1,14 +1,18 @@
 # Voucher-Generator
 Run the script without any arguments to generate a wordlist with the default settings (100,000 mixed-case words of length 6 without a prefix):
 
-_python Voucher_generator.py_
 Use the -h or --help argument to show the help message and available options:
+
 _python wordlist_generator.py --help_
+
 Specify the number of words using the -n or --num-words argument. You can use 'k' for thousands and 'm' for millions:
+
 _python wordlist_generator.py -n 500k_
+
 Set the prefix using the -p or --prefix argument:
 
 _python wordlist_generator.py -p GIFT_
+
 Set the case of the wordlist using the -c or --case argument ('L' for lowercase, 'U' for uppercase, 'mix' for mixed case):
 
 _python Voucher_generator.py -c U_
