@@ -27,4 +27,8 @@ You can combine multiple arguments as needed:
 
 This will generate a wordlist with 1 million uppercase words of length 8, with the prefix 'GIFT'.
 
+You can also use the -hp and -hr arguments to control the placement of hyphens in the generated wordlist.
+
+    python Voucher-Wordlist-Generator.py -n 50k -p GIFT -t 10 -w a -o gift_vouchers.txt -hp 3,5
+
 The generated wordlist will be saved in a file named 'wordlist.txt' in the same directory as the script.
