@@ -23,7 +23,7 @@ Set the total word length, including the prefix, using the -t or --word-length a
 
 You can combine multiple arguments as needed:
 
-    _python Voucher_generator.py -n 1m -p GIFT -c U -t 8_
+    python Voucher_generator.py -n 1m -p GIFT -c U -t 8
 
 This will generate a wordlist with 1 million uppercase words of length 8, with the prefix 'GIFT'.
 
