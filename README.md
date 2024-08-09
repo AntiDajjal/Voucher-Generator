@@ -3,23 +3,23 @@ Run the script without any arguments to generate a wordlist with the default set
 
 Use the -h or --help argument to show the help message and available options:
 
-    _python wordlist_generator.py --help_
+    python wordlist_generator.py --help
 
 Specify the number of words using the -n or --num-words argument. You can use 'k' for thousands and 'm' for millions:
 
-    _python wordlist_generator.py -n 500k_
+    python wordlist_generator.py -n 500k
 
 Set the prefix using the -p or --prefix argument:
 
-    _python wordlist_generator.py -p GIFT_
+    python wordlist_generator.py -p GIFT
 
 Set the case of the wordlist using the -c or --case argument ('L' for lowercase, 'U' for uppercase, 'mix' for mixed case):
 
-    _python Voucher_generator.py -c U_
+    python Voucher_generator.py -c U
 
 Set the total word length, including the prefix, using the -t or --word-length argument:
 
-    _python Voucher_generator.py -t 8_
+    python Voucher_generator.py -t 8
 
 You can combine multiple arguments as needed:
 
