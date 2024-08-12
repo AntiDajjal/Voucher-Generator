@@ -16,6 +16,7 @@ OUTPUT
             aJs
             jGH
             cSY
+                496k more :)
 
 Set the prefix using the -p or --prefix argument:
 
