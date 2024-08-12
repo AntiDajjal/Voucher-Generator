@@ -1,3 +1,4 @@
+
 # Voucher-Generator
 Run the script without any arguments to generate a wordlist with the default settings (100,000 mixed-case words of length 6 without a prefix):
 
@@ -85,6 +86,8 @@ OUTPUT
         GIF-T-ngRk
         GIF-T-cMuk
         GIF-T-xhKb
+
+Now lets try -hr
 
     python Voucher-Generator.py -n 50k -p GIFT -t 10 -w a -hr 3 -o wordlist.txt
 OUTPUT
