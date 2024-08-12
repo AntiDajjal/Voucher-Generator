@@ -3,20 +3,20 @@ Run the script without any arguments to generate a wordlist with the default set
 
 Use the -h or --help argument to show the help message and available options:
 
-    python wordlist-Generator.py --help
+    python Voucher-Generator.py -h
 
 Specify the number of words using the -n or --num-words argument. You can use 'k' for thousands and 'm' for millions:
 
-    python wordlist-Generator.py -n 500k
+    python Voucher-Generator.py -n 500k
     
 
 OUTPUT
 
-            oeC
-            aJs
-            jGH
-            cSY
-                496k more :)
+        AqrDKC9c
+        SSIoB7hB
+        MgZF1tgm
+        q8iLxKNd
+            496k more :)
 
 Set the prefix using the -p or --prefix argument:
 
